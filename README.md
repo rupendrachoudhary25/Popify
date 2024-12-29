@@ -14,46 +14,46 @@ Popify is a lightweight toast notification library built on top of [Toastify.js]
 You can install Popify using npm:
 
 ```bash
-npm install popify.js
+npm install popify-js
 ```
 
 ## Usage
 
-### Import Popify
+### Import Popup
 
 First, import Popify into your project:
 
 ```javascript
-import Popify from "popify";
+import Popup from "popify";
 ```
 
 ### Basic Notification
 
 ```javascript
-Popify.show("Hello, World!");
+Popup.show("Hello, World!");
 ```
 
 ### Success Notification
 
 ```javascript
-Popify.success("Operation successful!");
+Popup.success("Operation successful!");
 ```
 
 ### Error Notification
 
 ```javascript
-Popify.error("Something went wrong.");
+Popup.error("Something went wrong.");
 ```
 
 ## API
 
-### `Popify.show(message)`
+### `Popup.show(message)`
 - **message**: The message to display in the notification.
 
-### `Popify.success(message)`
+### `Popup.success(message)`
 - **message**: The success message to display.
 
-### `Popify.error(message)`
+### `Popup.error(message)`
 - **message**: The error message to display.
 
 ## Customization

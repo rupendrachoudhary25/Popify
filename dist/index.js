@@ -6,5 +6,5 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _popify = _interopRequireDefault(require("./popify"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
-// Export Popify as the default export
+// Export Popup as the default export
 var _default = exports["default"] = _popify["default"];

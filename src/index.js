@@ -1,4 +1,4 @@
-import Popify from "./popify";
+import Popup from "./popify";
 
-// Export Popify as the default export
-export default Popify;
+// Export Popup as the default export
+export default Popup;

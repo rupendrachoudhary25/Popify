@@ -20,11 +20,11 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 /**
  * Popify - A wrapper around Toastify with custom defaults.
  */
-var Popify = /*#__PURE__*/function () {
-  function Popify() {
-    _classCallCheck(this, Popify);
+var Popup = /*#__PURE__*/function () {
+  function Popup() {
+    _classCallCheck(this, Popup);
   }
-  return _createClass(Popify, null, [{
+  return _createClass(Popup, null, [{
     key: "show",
     value:
     /**
@@ -68,7 +68,7 @@ var Popify = /*#__PURE__*/function () {
     }
   }]);
 }();
-_defineProperty(Popify, "defaultOptions", {
+_defineProperty(Popup, "defaultOptions", {
   duration: 3000,
   close: true,
   gravity: "top",
@@ -81,4 +81,4 @@ _defineProperty(Popify, "defaultOptions", {
     padding: "10px"
   }
 });
-var _default = exports["default"] = Popify;
+var _default = exports["default"] = Popup;

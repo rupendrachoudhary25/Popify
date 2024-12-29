@@ -1,5 +1,5 @@
 {
-  "name": "popify.js",
+  "name": "popify-js",
   "version": "0.1.1",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "notification",
     "toastify",
     "popify",
-    "javascript"
+    "javascript",
+    "popup"
   ],
   "author": "Rupendra Choudhary",
   "license": "Apache-2.0",

@@ -4,7 +4,7 @@ import "toastify-js/src/toastify.css"; // Ensure Toastify styles are included
 /**
  * Popify - A wrapper around Toastify with custom defaults.
  */
-class Popify {
+class Popup {
   static defaultOptions = {
     duration: 3000,
     close: true,
@@ -57,4 +57,4 @@ class Popify {
   }
 }
 
-export default Popify;
+export default Popup;
