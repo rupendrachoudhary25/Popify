@@ -14,7 +14,7 @@ Popify is a lightweight toast notification library built on top of [Toastify.js]
 You can install Popify using npm:
 
 ```bash
-npm install popify
+npm install popify.js
 ```
 
 ## Usage
